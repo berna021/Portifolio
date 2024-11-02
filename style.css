@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+#img1{
+    margin-left: 10vh;
+    width: 20%;
+}
+
+header{
+    display: flex;
+    background-color: #101C39;
+    align-items: center;
+    height: 12vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 2.5px solid   black ;
+}
+#list{
+    list-style: none;
+    display: flex;
+    
+}
+#list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.border{
+    line-height: 1.5;
+    height: 88vh;
+    width: 50%;
+}
+#container-main{
+    display: flex;
+    background-color: #101C39;
+}
+.p-margin{
+    margin-left: 30%;
+   
+    
+}
+#title{
+    margin-top: 10%;
+    line-height: 105%;
+}
+#photo{
+    background-color: beige;
+
+    display: flex;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 55%;
+    margin-top: 10%;
+    background-image: url(Rectangle\ 3.png);
+    background-position: center;
+    background-size: cover;
+}
+#title{
+    color: #00FF77;
+    font-size: 48px;
+    margin-bottom: 1%;
+}
+#sub-title{
+    color: #00FF77;
+    font-size: 28px;
+}
+#desc{
+    color: #14AE5C;
+    font-size: 20px;
+    
+}
+#span{
+    margin-left: 30%;
+}
+#icons-title{
+    margin-left: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 10%;
+}
+#icons-title i{
+    font-size: 35px;
+    color: #00FF77;
+    margin-right: 2vh;
+}
+#botoms{
+    width: 90%;
+    text-align: center;
+    margin-top: 4vh;
+}
+#botom-Sobre a{
+    padding-left: 9vh;
+    padding-top: 0.5vh;
+    padding-right: 9vh;
+    padding-bottom: 0.5vh;
+    background-color: #1C2B50;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    font-weight: 700;
+    font-size: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+#botom-Sobre{
+    margin-bottom: 5vh;
+}
+#botom-Contato{
+    margin-left: 10%;
+    
+}
+#botom-Contato a{
+    padding-left: 9vh;
+    padding-top: 0.5vh;
+    padding-right: 9vh;
+    padding-bottom: 0.5vh;
+    background-color: #00FF77;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #101C39;
+    border: 2px solid black;
+    font-weight: 1000;
+    font-size: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.bolinha{
+    
+    background-color: #00FF77;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    margin: 5%;
+}
+#insert-bolinha{
+    margin-left: 10vh;
+    width: 10vh;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+}
+.hr{
+    
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+#Sobre-Mim{
+    height: 70vh;
+    background-color: #101C39;
+    width: 100%;
+    
+}
+#Sobre-Mim-Title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#Sobre-Mim-Title h2{
+    margin: auto; 
+    padding-left: 8vh;  
+    background-color: #00FF77;
+    padding-right: 8vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 8%;
+    color: white;
+    text-shadow: 2px 2px  black;
+    font-size: 28px;
+
+} 
+#Sobre-p{
+    
+    width: 60%;
+    margin: auto;
+}
+#Sobre-p p{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+}
+#Habilidades{
+    height: 100vh;
+    background-color: #1C2B50;
+}
+#Btn-Habi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#Btn-Habi h2{
+    margin: auto; 
+    padding-left: 8vh;  
+    background-color: #101C39;
+    padding-right: 8vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 3%;
+    color: #00FF77;
+    text-shadow: 2px 2px  black;
+    font-size: 28px;
+}
+#Habi-Main{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    margin-top: 5vh;
+    
+}
+#Habi-text{
+    margin-top: 5vh;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 15vh;
+    line-height: 1.2;
+    color: white;
+}
+.green{
+    color: #00FF77;
+}
+#Habi-List{
+    margin-top: 5vh;
+    
+}
+#Habi-List li{
+    margin-top: 1vh;
+}
+#Habi-List li::marker{
+color: #00FF77;
+}
+#Habi-img {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5vh;
+}
+
+.Img {
+    
+    width: 40vh; /* Ajuste se necessário */
+}
+
+#Sql {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 100%;
+    
+   
+}
+.Img{
+    text-align: center;
+    
+}
+#Projetos{
+    background-color: #1C2B50;
+    width: 100%;
+    height: 100vh;
+}
+#Btn-Projetos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top : 5vh;
+    margin-bottom: 5vh;
+}
+#Btn-Projetos h2{
+    margin: auto; 
+    padding-left: 10vh;  
+    background-color: #00FF77;
+    padding-right: 10vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 3%;
+    color: white;
+    text-shadow: 2px 2px  black;
+    font-size: 28px;
+}
+#Projetos-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 60vh;
+    margin-top: 10vh;
+    margin: auto;
+    width: 60%;
+    gap: 4vh;
+}
+.project{
+    /*background-color: #2C498E;*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.project-up{
+    height: 75%;
+    width: 100%;
+    background-color: #2C498E;
+}
+.project-down{
+    width: 100%;
+    height: 25%;
+    background-color: #101C39;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #101C39;
+    display: flex;
+}
+#Desen{
+    text-shadow: 2px 2px  black;
+    color: #00FF77;
+}
+#footer-right{
+    width: 40%;
+    margin-left: 20vh;
+    padding-top: 14vh;
+}
+#footer-right p{
+    font-size: 18px;
+    color: white;
+}
+#footer-left{
+    width: 40%;
+    padding-top: 10vh;
+    margin-left: 10vh;
+}
+#Btn-Contato{
+    margin: auto;
+    padding-left: 8vh;  
+    background-color: #2C498E;
+    padding-right: 8vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 3%;
+    width: 40%;
+    color: #00FF77;
+    text-shadow: 2px 2px  black;
+    font-size: 28px;
+   margin-bottom: 3vh;
+}
+#footer-left p{
+    font-size: 20px;
+    color: white;
+    margin-top: 2vh;
+}
+#imagens{
+    margin-top: 3vh;
+}
+#imagens img{
+    margin-right: 3vh;
+    width: 40px;
+}
